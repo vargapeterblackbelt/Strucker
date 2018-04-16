@@ -3,6 +3,9 @@ package hu.elte.strucker.model.diagram;
 import hu.elte.strucker.model.interpreter.StructogramInterpreter;
 import hu.elte.strucker.model.interpreter.StructogramValidator;
 import hu.elte.strucker.model.interpreter.processed.ProcessedStructogram;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.swing.tree.DefaultMutableTreeNode;
@@ -10,9 +13,11 @@ import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+@NoArgsConstructor
+@Getter
+@Setter
 public class Statement extends Structogram {
 
-    @Setter
     private String statement;
 
     public Statement(String stat) {

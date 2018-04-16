@@ -10,21 +10,21 @@ public class ConsoleController extends Controller implements ConsoleOperations {
 
     @Override
     public void hide() {
-
+        System.out.println("works!");
     }
 
     @Override
     public void show() {
-
+        System.out.println("works!");
     }
 
     @Override
     public void clear() {
-
+        System.out.println("works!");
     }
 
     @Override
     public void log() {
-
+        System.out.println("works!");
     }
 }

@@ -3,20 +3,19 @@ package hu.elte.strucker.model.diagram;
 import hu.elte.strucker.model.interpreter.StructogramInterpreter;
 import hu.elte.strucker.model.interpreter.StructogramValidator;
 import hu.elte.strucker.model.interpreter.processed.ProcessedStructogram;
-import lombok.Getter;
-import lombok.NonNull;
-import lombok.Setter;
+import lombok.*;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+@NoArgsConstructor
 @Getter
+@Setter
 public class Selection extends Structogram {
 
     @NonNull
-    @Setter
     private String condition;
     private Sequence thenSequence;
     private Sequence elseSequence;

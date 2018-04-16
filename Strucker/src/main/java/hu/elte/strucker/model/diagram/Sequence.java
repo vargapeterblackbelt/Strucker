@@ -3,6 +3,10 @@ package hu.elte.strucker.model.diagram;
 import hu.elte.strucker.model.interpreter.processed.ProcessedStructogram;
 import hu.elte.strucker.model.interpreter.StructogramInterpreter;
 import hu.elte.strucker.model.interpreter.StructogramValidator;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreeNode;
@@ -11,6 +15,8 @@ import java.util.List;
 
 public class Sequence extends Structogram {
 
+    @Getter
+    @Setter
     private List<Structogram> sequence;
 
     public Sequence() {

@@ -3,14 +3,13 @@ package hu.elte.strucker.model.diagram;
 import hu.elte.strucker.model.interpreter.StructogramInterpreter;
 import hu.elte.strucker.model.interpreter.StructogramValidator;
 import hu.elte.strucker.model.interpreter.processed.ProcessedStructogram;
-import lombok.Getter;
-import lombok.NonNull;
-import lombok.Setter;
+import lombok.*;
 
+@NoArgsConstructor
+@Getter
+@Setter
 public class Loop extends Sequence {
 
-    @Getter
-    @Setter
     @NonNull
     private String condition;
 

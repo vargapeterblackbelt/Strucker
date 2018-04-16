@@ -5,6 +5,7 @@ public interface ProjectOperations {
     void open();
     void close();
     void save();
+    void saveAs();
     void showProperties();
     void validate();
 }

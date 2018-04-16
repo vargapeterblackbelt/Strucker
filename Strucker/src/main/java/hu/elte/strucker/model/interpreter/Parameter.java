@@ -1,11 +1,11 @@
 package hu.elte.strucker.model.interpreter;
 
-import lombok.Getter;
-import lombok.NonNull;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Parameter {
     @NonNull
     private String name;

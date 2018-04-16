@@ -10,26 +10,26 @@ public class ApplicationController extends Controller implements ApplicationOper
 
     @Override
     public void showSettings() {
-
+        System.out.println("works!");
     }
 
     @Override
     public void showDocumentation() {
-
+        System.out.println("works!");
     }
 
     @Override
     public void showAbout() {
-
+        System.out.println("works!");
     }
 
     @Override
     public void logStatus() {
-
+        System.out.println("works!");
     }
 
     @Override
     public void close() {
-
+        System.out.println("works!");
     }
 }

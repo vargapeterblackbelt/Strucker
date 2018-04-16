@@ -1,7 +1,7 @@
 package hu.elte.strucker.model.diagram;
 
 public enum StructogramType {
-    STATEMENT("Akció"), LOOP("Ciklus"), SELECTION("Elágazás"), SEQUENCE("Szekvencia");
+    STATEMENT("Akció"), LOOP("Ciklus"), SELECTION("Elágazás"), SEQUENCE("Szekvencia"), DIAGRAM("Diagram");
 
     private String name;
 
