@@ -7,7 +7,7 @@ hu/elte/strucker/view/dialogs/StruckerDialog.class
 hu/elte/strucker/view/StruckerFrame.class
 hu/elte/strucker/controller/Application.class
 hu/elte/strucker/model/interpreter/Parameter.class
-hu/elte/strucker/view/dialogs/ProjectPropertiesDialog.class
+hu/elte/strucker/helper/TreeHelper.class
 hu/elte/strucker/model/AbstractExplorable.class
 hu/elte/strucker/model/diagram/Loop.class
 hu/elte/strucker/StruckerApplication.class
@@ -15,13 +15,15 @@ hu/elte/strucker/model/interpreter/processed/ProcessedSequence.class
 hu/elte/strucker/controller/controllers/ProjectController.class
 hu/elte/strucker/model/diagram/Selection.class
 hu/elte/strucker/model/diagram/Sequence.class
-hu/elte/strucker/view/dialogs/DiagramPropertiesDialog.class
 hu/elte/strucker/model/interpreter/processed/ProcessedStructogram.class
 hu/elte/strucker/model/interpreter/StructogramInterpreter.class
 hu/elte/strucker/view/dialogs/creation/ParameterDialog.class
+hu/elte/strucker/view/dialogs/creation/StructogramPropertiesDialog.class
 hu/elte/strucker/model/Explorable.class
 hu/elte/strucker/model/project/Project.class
+hu/elte/strucker/view/explorer/StruckerExplorer.class
 hu/elte/strucker/model/diagram/Statement.class
 hu/elte/strucker/view/dialogs/creation/ParameterDialog$1.class
 hu/elte/strucker/view/dialogs/creation/CreateStructogramDialog.class
+hu/elte/strucker/view/explorer/StruckerExplorer$1.class
 hu/elte/strucker/model/diagram/StructogramType.class

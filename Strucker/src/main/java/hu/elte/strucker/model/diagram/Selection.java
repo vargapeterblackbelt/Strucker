@@ -10,22 +10,29 @@ import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-@NoArgsConstructor
 @Getter
 @Setter
 public class Selection extends Structogram {
 
-    @NonNull
     private String condition;
     private Sequence thenSequence;
     private Sequence elseSequence;
 
+    public Selection() {
+        condition = UNKNOWN_LABEL;
+        init();
+    }
+
     public Selection(String condition) {
+        this.condition = condition;
+        init();
+    }
+
+    private void init() {
         thenSequence = new Sequence();
         elseSequence = new Sequence();
         thenSequence.setLabel("THEN");
         elseSequence.setLabel("ELSE");
-        this.condition = condition;
         setLabel("IF "+condition);
     }
 
@@ -57,8 +64,4 @@ public class Selection extends Structogram {
         return null;
     }
 
-    @Override
-    public StructogramType getType() {
-        return StructogramType.SELECTION;
-    }
 }

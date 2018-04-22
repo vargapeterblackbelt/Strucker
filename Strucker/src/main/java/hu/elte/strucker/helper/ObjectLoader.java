@@ -6,8 +6,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class ObjectLoader {
-    public static Object deserialize(String path, Class clazz) {
-        Object object = null;
+    public static <T> T deserialize(String path, Class<T> clazz) {
+        T object;
         try {
             ObjectMapper mapper = new ObjectMapper();
             mapper.enableDefaultTyping();
@@ -28,4 +28,5 @@ public class ObjectLoader {
         }
         return deserialize(path, object.getClass());
     }
+
 }

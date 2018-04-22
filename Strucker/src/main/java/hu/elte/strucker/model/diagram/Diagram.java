@@ -1,10 +1,12 @@
 package hu.elte.strucker.model.diagram;
 
 import hu.elte.strucker.model.interpreter.Parameter;
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.Setter;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @NoArgsConstructor

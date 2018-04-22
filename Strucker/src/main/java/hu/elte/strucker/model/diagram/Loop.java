@@ -5,7 +5,6 @@ import hu.elte.strucker.model.interpreter.StructogramValidator;
 import hu.elte.strucker.model.interpreter.processed.ProcessedStructogram;
 import lombok.*;
 
-@NoArgsConstructor
 @Getter
 @Setter
 public class Loop extends Sequence {
@@ -15,8 +14,18 @@ public class Loop extends Sequence {
 
     public Loop(String condition) {
         super();
-        setLabel("WHILE " + condition);
         this.condition = condition;
+        init();
+    }
+
+    public Loop() {
+        super();
+        condition = UNKNOWN_LABEL;
+        init();
+    }
+
+    private void init() {
+        setLabel("WHILE " + condition);
     }
 
     @Override
@@ -29,8 +38,4 @@ public class Loop extends Sequence {
         return super.interpret(interpreter);
     }
 
-    @Override
-    public StructogramType getType() {
-        return StructogramType.LOOP;
-    }
 }

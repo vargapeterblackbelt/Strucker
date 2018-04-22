@@ -1,11 +1,9 @@
 package hu.elte.strucker.model.diagram;
 
-import hu.elte.strucker.model.interpreter.processed.ProcessedStructogram;
 import hu.elte.strucker.model.interpreter.StructogramInterpreter;
 import hu.elte.strucker.model.interpreter.StructogramValidator;
-import lombok.Data;
+import hu.elte.strucker.model.interpreter.processed.ProcessedStructogram;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.swing.tree.DefaultMutableTreeNode;
@@ -40,23 +38,30 @@ public class Sequence extends Structogram {
     }
 
     public void add(Structogram child) {
-        sequence.add((Structogram) child);
-        child.setParent(this);
+        sequence.add(child);
     }
 
     public void add(int index, Structogram child) {
         sequence.add(index, child);
-        child.setParent(this);
     }
 
     public void addBefore(Structogram child, Structogram newChild) {
         sequence.add(sequence.indexOf(child), newChild);
-        newChild.setParent(this);
     }
 
     public void addAfter(Structogram child, Structogram newChild) {
         sequence.add(sequence.indexOf(child)+1, newChild);
-        newChild.setParent(this);
+    }
+
+    public int indexOf(Structogram child) {
+        return sequence.indexOf(child);
+    }
+
+    public void move(Structogram child, int index) {
+        if(sequence.contains(child)) {
+            sequence.remove(child);
+            sequence.add(index, child);
+        }
     }
 
     public void remove(Structogram child) {
@@ -86,8 +91,4 @@ public class Sequence extends Structogram {
         return null;
     }
 
-    @Override
-    public StructogramType getType() {
-        return StructogramType.SEQUENCE;
-    }
 }

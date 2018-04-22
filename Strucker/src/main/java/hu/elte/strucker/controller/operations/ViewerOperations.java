@@ -1,6 +1,6 @@
 package hu.elte.strucker.controller.operations;
 
-public interface ExplorerOperations {
+public interface ViewerOperations {
     void expand();
     void collapse();
     void showMenu();

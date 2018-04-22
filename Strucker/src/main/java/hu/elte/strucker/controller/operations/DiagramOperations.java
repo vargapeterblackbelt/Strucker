@@ -5,6 +5,9 @@ public interface DiagramOperations {
     void save();
     void export();
     void exportAsImage();
+    void copy();
+    void cut();
+    void paste();
     void delete();
     void showProperties();
     void validate();

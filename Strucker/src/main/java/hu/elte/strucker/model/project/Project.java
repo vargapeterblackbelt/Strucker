@@ -1,8 +1,10 @@
 package hu.elte.strucker.model.project;
 
+import hu.elte.strucker.model.AbstractExplorable;
 import hu.elte.strucker.model.diagram.Diagram;
-import lombok.*;
-import org.codehaus.jackson.annotate.JsonIgnore;
+import lombok.Getter;
+import lombok.NonNull;
+import lombok.Setter;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.MutableTreeNode;
@@ -11,16 +13,30 @@ import java.util.List;
 
 @Getter
 @Setter
-@NoArgsConstructor
-public class Project {
+public class Project extends AbstractExplorable<Diagram> {
+
+    @NonNull
+    private String name;
+    private String description;
+    private String location;
 
     private List<Diagram> diagrams;
 
     public Project(String name) {
+        super();
         this.name = name;
+        description = null;
+        location = null;
+        init();
+    }
+
+    public Project() {
+        super();
+        init();
+    }
+
+    private void init() {
         diagrams = new ArrayList<>();
-        description = "";
-        location = "";
     }
 
     public void addDiagram(Diagram d) {
@@ -31,17 +47,26 @@ public class Project {
         diagrams.remove(d);
     }
 
-    @NonNull
-    private String name;
-    private String description;
-    private String location;
+    @Override
+    public boolean hasChilds() {
+        return !diagrams.isEmpty();
+    }
 
-    @JsonIgnore
+    @Override
+    public List<Diagram> getChilds() {
+        return diagrams;
+    }
+
     public DefaultMutableTreeNode getTree() {
         DefaultMutableTreeNode projectRoot = new DefaultMutableTreeNode(this);
         for (Diagram diagram : diagrams) {
             projectRoot.add((MutableTreeNode) diagram.getTree());
         }
         return projectRoot;
+    }
+
+    @Override
+    public String getExploredName() {
+        return name + " ["+location+"]";
     }
 }

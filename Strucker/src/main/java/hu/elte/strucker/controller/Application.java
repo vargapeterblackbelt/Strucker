@@ -12,7 +12,5 @@ public interface Application {
     JTree getExplorer();
     DefaultMutableTreeNode getSelectedNode();
     List<Project> getOpenProjects();
-    void addToExplorer(DefaultMutableTreeNode parent, DefaultMutableTreeNode child);
-    void removeFromExplorer(DefaultMutableTreeNode child);
     JFrame getWindow();
 }

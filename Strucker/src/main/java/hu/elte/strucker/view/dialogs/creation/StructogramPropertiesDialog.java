@@ -27,19 +27,18 @@ public class StructogramPropertiesDialog extends StruckerDialog {
         super();
         initComponents();
         this.stg = stg;
-        type = stg.getType();
         descriptionField.setText(stg.getDescription());
         definitionField.setText(stg.getExploredName());
         okButton.addActionListener(e -> ok());
         cancelButton.addActionListener(e -> cancel());
         warningLabel.setVisible(false);
-        if(type == LOOP) {
+        if(stg instanceof Loop) {
             definitionLabel.setText("Ciklus feltétele");
         } else {
-            if(type == STATEMENT) {
+            if(stg instanceof Statement) {
                 definitionLabel.setText("Akció megfogalmazása");
             } else {
-                if(type == SELECTION) {
+                if(stg instanceof Selection) {
                     definitionLabel.setText("Elágazás feltétele");
                 } else {
                     definitionLabel.setText("Szekvencia típusának megfogalmazása");
@@ -63,7 +62,7 @@ public class StructogramPropertiesDialog extends StruckerDialog {
         warningLabel = new JLabel();
 
 
-        setTitle("Elem beszúrása");
+        setTitle("Elem tulajdonságia");
 
         definitionLabel.setText("Definíció");
 
@@ -160,15 +159,10 @@ public class StructogramPropertiesDialog extends StruckerDialog {
                     }
                 }
             }
-            cancel();
+            setVisible(false);
+            dispose();
         }
     }
-
-    protected void cancel() {
-        setVisible(false);
-        dispose();
-    }
-
 
     public static void main(String[] args) {
         Statement statement = new Statement("i := 10");

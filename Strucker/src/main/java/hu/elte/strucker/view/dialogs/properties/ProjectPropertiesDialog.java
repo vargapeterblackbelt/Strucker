@@ -1,10 +1,11 @@
-package hu.elte.strucker.view.dialogs;
+package hu.elte.strucker.view.dialogs.properties;
 
 import hu.elte.strucker.model.diagram.Diagram;
 import hu.elte.strucker.model.diagram.Statement;
 import hu.elte.strucker.model.interpreter.Parameter;
 import hu.elte.strucker.model.project.Project;
 import hu.elte.strucker.view.UIProperties;
+import hu.elte.strucker.view.dialogs.StruckerDialog;
 import hu.elte.strucker.view.tools.GradientPanel;
 import lombok.NonNull;
 
@@ -42,6 +43,8 @@ public class ProjectPropertiesDialog extends StruckerDialog {
         this.project = project;
         nameField.setText(project.getName());
         descriptionField.setText(project.getDescription());
+        descriptionField.setLineWrap(true);
+        descriptionField.setWrapStyleWord(true);
         locationField.setText(project.getLocation());
         locationField.setEditable(false);
         fileChooser = new JFileChooser();
@@ -52,6 +55,8 @@ public class ProjectPropertiesDialog extends StruckerDialog {
             initCheckBox.setSelected(false);
             initCheckBox.setVisible(false);
         }
+        setModal(true);
+        setVisible(true);
     }
 
     private void browse() {
@@ -95,7 +100,7 @@ public class ProjectPropertiesDialog extends StruckerDialog {
         cancelButton.setText("Mégse");
 
         initCheckBox.setBackground(new Color(255, 255, 255));
-        initCheckBox.setOpaque(true);
+        initCheckBox.setOpaque(false);
         initCheckBox.setSelected(true);
         initCheckBox.setText("Inicializálás");
 

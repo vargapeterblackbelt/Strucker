@@ -8,7 +8,8 @@ import javax.swing.*;
 
 import static hu.elte.strucker.model.diagram.StructogramType.*;
 
-public class CreateStructogramDialog extends StruckerDialog{
+public class CreateStructogramDialog extends StruckerDialog {
+
     private JButton cancelButton;
     private JTextField definitionField;
     private JLabel definitionLabel;
@@ -28,6 +29,7 @@ public class CreateStructogramDialog extends StruckerDialog{
         super();
         product = null;
         initComponents();
+        setLocationRelativeTo(null);
         typeComboBox.getModel().setSelectedItem(type);
         okButton.addActionListener(e -> ok());
         cancelButton.addActionListener(e -> cancel());

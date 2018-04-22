@@ -2,16 +2,21 @@ package hu.elte.strucker.controller.controllers;
 
 import hu.elte.strucker.controller.Application;
 import hu.elte.strucker.controller.operations.DiagramOperations;
-import hu.elte.strucker.helper.Naming;
+import hu.elte.strucker.helper.TreeHelper;
 import hu.elte.strucker.model.diagram.Diagram;
+import hu.elte.strucker.model.diagram.Structogram;
+import hu.elte.strucker.model.diagram.StructogramType;
 import hu.elte.strucker.model.project.Project;
-import hu.elte.strucker.view.dialogs.DiagramPropertiesDialog;
+import hu.elte.strucker.view.dialogs.creation.CreateStructogramDialog;
+import hu.elte.strucker.view.dialogs.properties.DiagramPropertiesDialog;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 
 import static hu.elte.strucker.helper.Naming.qualifiedPath;
 import static hu.elte.strucker.helper.ObjectLoader.serialize;
+import static hu.elte.strucker.helper.TreeHelper.extract;
+import static hu.elte.strucker.helper.TreeHelper.reload;
 
 public class DiagramController extends Controller implements DiagramOperations {
 
@@ -21,31 +26,22 @@ public class DiagramController extends Controller implements DiagramOperations {
 
     @Override
     public void create() {
-        DefaultMutableTreeNode selectedNode = app.getSelectedNode();
-        if(selectedNode != null) {
-            Object userObject = app.getSelectedNode().getUserObject();
-            if(userObject instanceof Project) {
-                Project project = (Project) userObject;
-                Diagram newDiagram = new Diagram();
-                DiagramPropertiesDialog dialog = new DiagramPropertiesDialog(newDiagram);
-                if(!dialog.isCancelled()) {
-                    project.addDiagram(newDiagram);
-                    app.addToExplorer(selectedNode, (DefaultMutableTreeNode) newDiagram.getTree());
-                }
+        Project project = extract(app.getSelectedNode(), Project.class);
+        if(project != null) {
+            Diagram newDiagram = new Diagram();
+            DiagramPropertiesDialog dialog = new DiagramPropertiesDialog(newDiagram);
+            if(!dialog.isCancelled()) {
+                project.addDiagram(newDiagram);
+                TreeHelper.insert(app.getExplorer(), newDiagram.getTree(), app.getSelectedNode());
             }
         }
     }
 
     @Override
     public void save() {
-        DefaultMutableTreeNode selectedNode = app.getSelectedNode();
-        if(selectedNode != null) {
-            Object userObject = app.getSelectedNode().getUserObject();
-            if(userObject instanceof Diagram) {
-                Diagram diagram = (Diagram) userObject;
-                Project project = (Project) diagram.getParent();
-                serialize(qualifiedPath(project), project);
-            }
+        Project project = extract((DefaultMutableTreeNode) app.getSelectedNode().getParent(), Project.class);
+        if(project != null) {
+            serialize(qualifiedPath(project), project);
         }
     }
 
@@ -60,21 +56,37 @@ public class DiagramController extends Controller implements DiagramOperations {
     }
 
     @Override
+    public void copy() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void cut() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void paste() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
     public void delete() {
-        System.out.println("works!");
+        Diagram diagram = extract(app.getSelectedNode(), Diagram.class);
+        if(diagram != null) {
+            Project project = extract((DefaultMutableTreeNode) app.getSelectedNode().getParent(), Project.class);
+            project.removeDiagram(diagram);
+            TreeHelper.remove(app.getExplorer(), app.getSelectedNode());
+        }
     }
 
     @Override
     public void showProperties() {
-        DefaultMutableTreeNode selectedNode = app.getSelectedNode();
-        if(selectedNode != null) {
-            Object userObject = app.getSelectedNode().getUserObject();
-            if(userObject instanceof Diagram) {
-                Diagram diagram = (Diagram) userObject;
-                DiagramPropertiesDialog dialog = new DiagramPropertiesDialog(diagram);
-                if(!dialog.isCancelled()) {
-                    ((DefaultTreeModel)app.getExplorer().getModel()).reload(selectedNode);
-                }
+        Diagram diagram = extract(app.getSelectedNode(), Diagram.class);
+        if(diagram != null) {
+            DiagramPropertiesDialog dialog = new DiagramPropertiesDialog(diagram);
+            if(!dialog.isCancelled()) {
+                reload(app.getExplorer(), app.getSelectedNode());
             }
         }
     }
@@ -91,6 +103,13 @@ public class DiagramController extends Controller implements DiagramOperations {
 
     @Override
     public void insert() {
-        System.out.println("works!");
+        Diagram diagram = extract(app.getSelectedNode(), Diagram.class);
+        if(diagram != null) {
+            CreateStructogramDialog dialog = new CreateStructogramDialog(StructogramType.STATEMENT);
+            Structogram product = dialog.getProduct();
+            if(product != null) {
+                TreeHelper.insert(app.getExplorer(), (DefaultMutableTreeNode) product.getTree(), app.getSelectedNode());
+            }
+        }
     }
 }

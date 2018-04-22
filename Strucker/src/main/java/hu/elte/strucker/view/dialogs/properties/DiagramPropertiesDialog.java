@@ -1,8 +1,9 @@
-package hu.elte.strucker.view.dialogs;
+package hu.elte.strucker.view.dialogs.properties;
 
 import hu.elte.strucker.model.diagram.Diagram;
 import hu.elte.strucker.model.interpreter.Parameter;
 import hu.elte.strucker.view.UIProperties;
+import hu.elte.strucker.view.dialogs.StruckerDialog;
 import hu.elte.strucker.view.tools.GradientPanel;
 
 import javax.swing.*;
@@ -78,6 +79,7 @@ public class DiagramPropertiesDialog extends StruckerDialog {
         setResizable(false);
 
         mainPanel.setBackground(new Color(255, 255, 255));
+        parametersPanel.setOpaque(true);
 
         diagramNameLabel.setText("Diagram neve");
 

@@ -3,36 +3,29 @@ package hu.elte.strucker;
 import hu.elte.strucker.controller.Application;
 import hu.elte.strucker.controller.controllers.*;
 import hu.elte.strucker.controller.operations.*;
-import hu.elte.strucker.model.Explorable;
-import hu.elte.strucker.model.diagram.*;
 import hu.elte.strucker.model.project.Project;
-import hu.elte.strucker.view.UIProperties;
-import hu.elte.strucker.view.tools.RoundedPanel;
+import hu.elte.strucker.view.explorer.StruckerExplorer;
 import hu.elte.strucker.view.tools.StruckerButton;
 
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
-import javax.swing.tree.*;
+import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.awt.Color.WHITE;
-
 public class StruckerApplication implements Application {
 
     private JFrame window;
-    private JTree explorer;
-    private List<Project> openProjects;
-    private DefaultMutableTreeNode selectedItem;
-
+    private StruckerExplorer explorer;
+    private List<Project> openProjects = new ArrayList<>();
 
     private ApplicationOperations applicationController;
     private ConsoleOperations consoleController;
     private DiagramOperations diagramController;
     private ProjectOperations projectController;
-    private ExplorerOperations explorerController;
+    private ViewerOperations explorerController;
     private StructogramOperations structogramController;
     private EditorOperations editorController;
 
@@ -52,15 +45,12 @@ public class StruckerApplication implements Application {
     private JScrollPane executeScrollPane = new JScrollPane();
     private JTextArea consoleField = new JTextArea();
 
-    private JPopupMenu explorerMenu;
-
     public StruckerApplication() {
         window = new JFrame();
         window.setTitle("Strucker");
-        openProjects = new ArrayList<>();
-        initExplorer();
-        initComponents();
         initControllers();
+        explorer = new StruckerExplorer(this, explorerController);
+        initComponents();
         initMenu();
         initButtons();
     }
@@ -70,10 +60,11 @@ public class StruckerApplication implements Application {
         consoleController = new ConsoleController(this);
         diagramController = new DiagramController(this);
         projectController = new ProjectController(this);
-        explorerController = new ExplorerController(this);
+        explorerController = new ViewerController(this);
         structogramController = new StructogramController(this);
         editorController = new EditorController(this);
     }
+
     private void initMenu() {
         JMenuBar menuBar = new JMenuBar();
 
@@ -85,7 +76,8 @@ public class StruckerApplication implements Application {
         fileMenu.addSeparator();
         addMenuItem(fileMenu, "Megnyitás", e -> projectController.open());
         addMenuItem(fileMenu, "Mentés", e -> projectController.save());
-        addMenuItem(fileMenu, "Mentés másként", e -> {}); // hiányos!
+        addMenuItem(fileMenu, "Mentés másként", e -> {
+        }); // hiányos!
         addMenuItem(fileMenu, "Tulajdonságok", e -> projectController.showProperties());
         addMenuItem(fileMenu, "Bezárás", e -> projectController.close());
         fileMenu.addSeparator();
@@ -93,7 +85,7 @@ public class StruckerApplication implements Application {
 
         JMenu editMenu = new JMenu("Szerkesztés");
         menuBar.add(editMenu);
-        addMenuItem(editMenu, "Visszavonás", e ->  editorController.undo());
+        addMenuItem(editMenu, "Visszavonás", e -> editorController.undo());
         addMenuItem(editMenu, "Mégis", e -> editorController.redo());
         editMenu.addSeparator();
         addMenuItem(editMenu, "Másolás", e -> editorController.copy());
@@ -115,6 +107,7 @@ public class StruckerApplication implements Application {
 
         window.setJMenuBar(menuBar);
     }
+
     private void initComponents() {
         mainPanel = new JPanel();
         statusBar = new JPanel();
@@ -279,6 +272,7 @@ public class StruckerApplication implements Application {
         window.pack();
         window.setLocationRelativeTo(null);
     }
+
     private void initButtons() {
         addButton(projectExplorerToolbar, "Új diagram", e -> diagramController.create());
         addButton(projectExplorerToolbar, "Új elem", e -> diagramController.insert());
@@ -298,79 +292,111 @@ public class StruckerApplication implements Application {
         addButton(executeToolBar, "Elrejtés", e -> consoleController.hide());
         addButton(executeToolBar, "Megjelenítés", e -> consoleController.show());
     }
+
     private void initExplorer() {
-        DefaultMutableTreeNode root = new DefaultMutableTreeNode("Megnyitott projektek");
-        for (Project project : openProjects) {
-            DefaultMutableTreeNode projectNode = new DefaultMutableTreeNode(project);
-            root.add(projectNode);
-            for (Diagram diagram : project.getDiagrams()) {
-                projectNode.add((MutableTreeNode) diagram.getTree());
-            }
-        }
-        DefaultTreeSelectionModel selectionModel = new DefaultTreeSelectionModel();
-        selectionModel.setSelectionMode(TreeSelectionModel.SINGLE_TREE_SELECTION);
-        explorer = new JTree(root);
-        explorer.setSelectionModel(selectionModel);
-//        explorer.addTreeSelectionListener(e -> System.out.println(e.getPath().getLastPathComponent()));
-        explorer.putClientProperty("JTree.lineStyle", "None");
-        explorer.putClientProperty("", null);
-        explorer.setShowsRootHandles(true);
-        explorer.setRootVisible(false);
-        explorer.setCellRenderer((tree, value, selected, expanded, leaf, row, hasFocus) -> {
-            Object userObject = ((DefaultMutableTreeNode) value).getUserObject();
-            JPanel panel = new JPanel();
-            RoundedPanel labelPanel = new RoundedPanel();
-            labelPanel.setShady(true);
-            JLabel label = new JLabel();
-
-            labelPanel.add(label);
-            panel.add(labelPanel);
-            panel.setBackground(WHITE);
-            panel.add(labelPanel);
-            if(userObject instanceof Project) {
-                Project project = (Project) userObject;
-                labelPanel.setBackground(UIProperties.projectBackgroundColor);
-                label.setText(project.getName());
-            } else {
-                if(userObject instanceof Diagram) {
-                    Diagram diagram = (Diagram) userObject;
-                    labelPanel.setBackground(UIProperties.diagramBackgroundColor);
-                    label.setText(diagram.getName());
-                } else {
-                    if(userObject instanceof Loop) {
-                        Loop loop = (Loop) userObject;
-                        labelPanel.setBackground(UIProperties.loopBackgroundColor);
-                        label.setText(loop.getCondition());
-                    } else {
-                        if(userObject instanceof Selection) {
-                            Selection selection = (Selection) userObject;
-                            labelPanel.setBackground(UIProperties.selectionBackgroundColor);
-                            label.setText(selection.getCondition());
-                        } else {
-                            if(userObject instanceof Sequence) {
-                                Sequence sequence = (Sequence) userObject;
-                                labelPanel.setBackground(UIProperties.sequenceBackgroundColor);
-                                label.setText(sequence.getLabel());
-                            } else {
-                                if(userObject instanceof Statement) {
-                                    Statement statement = (Statement) userObject;
-                                    labelPanel.setBackground(UIProperties.statementBackgroundColor);
-                                    label.setText(statement.getStatement());
-                                } else {
-                                    label.setText(userObject.toString());
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            if(selected) {
-                labelPanel.setBackground(labelPanel.getBackground().darker());
-            }
-            return panel;
-        });
-        explorer.addTreeSelectionListener(e -> selectedItem = (DefaultMutableTreeNode)e.getPath().getLastPathComponent());
+//        DefaultMutableTreeNode root = new DefaultMutableTreeNode("Megnyitott projektek");
+//        for (Project project : openProjects) {
+//            DefaultMutableTreeNode projectNode = new DefaultMutableTreeNode(project);
+//            root.add(projectNode);
+//            for (Diagram diagram : project.getDiagrams()) {
+//                projectNode.add((MutableTreeNode) diagram.getTree());
+//            }
+//        }
+//        DefaultTreeSelectionModel selectionModel = new DefaultTreeSelectionModel();
+////        selectionModel.setSelectionMode(TreeSelectionModel.SINGLE_TREE_SELECTION);
+//        explorer = new JTree(root);
+//        explorer.setSelectionModel(null);
+////        explorer.addTreeSelectionListener(e -> System.out.println(e.getPath().getLastPathComponent()));
+//        explorer.putClientProperty("JTree.lineStyle", "None");
+//        explorer.putClientProperty("", null);
+//        explorer.setShowsRootHandles(true);
+//        explorer.setRootVisible(false);
+//        explorer.setCellRenderer((tree, value, selected, expanded, leaf, row, hasFocus) -> {
+//            Object userObject = ((DefaultMutableTreeNode) value).getUserObject();
+//            JPanel panel = new JPanel();
+//            RoundedPanel labelPanel = new RoundedPanel();
+//            labelPanel.setShady(true);
+//            JLabel label = new JLabel();
+//
+//            labelPanel.add(label);
+//            panel.add(labelPanel);
+//            panel.setBackground(WHITE);
+//            panel.add(labelPanel);
+//            if (userObject instanceof Project) {
+//                Project project = (Project) userObject;
+//                labelPanel.setBackground(UIProperties.projectBackgroundColor);
+//                label.setText(project.getName());
+//            } else {
+//                if (userObject instanceof Diagram) {
+//                    Diagram diagram = (Diagram) userObject;
+//                    labelPanel.setBackground(UIProperties.diagramBackgroundColor);
+//                    label.setText(diagram.getName());
+//                } else {
+//                    if (userObject instanceof Loop) {
+//                        Loop loop = (Loop) userObject;
+//                        labelPanel.setBackground(UIProperties.loopBackgroundColor);
+//                        label.setText(loop.getCondition());
+//                    } else {
+//                        if (userObject instanceof Selection) {
+//                            Selection selection = (Selection) userObject;
+//                            labelPanel.setBackground(UIProperties.selectionBackgroundColor);
+//                            label.setText(selection.getCondition());
+//                        } else {
+//                            if (userObject instanceof Sequence) {
+//                                Sequence sequence = (Sequence) userObject;
+//                                labelPanel.setBackground(UIProperties.sequenceBackgroundColor);
+//                                label.setText(sequence.getLabel());
+//                            } else {
+//                                if (userObject instanceof Statement) {
+//                                    Statement statement = (Statement) userObject;
+//                                    labelPanel.setBackground(UIProperties.statementBackgroundColor);
+//                                    label.setText(statement.getStatement());
+//                                } else {
+//                                    label.setText(userObject.toString());
+//                                }
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+//
+//            if (value.equals(selectedNode)) {
+//                labelPanel.setBackground(labelPanel.getBackground().darker());
+//            }
+//            return panel;
+//        });
+//        explorer.addTreeSelectionListener(e -> selectedNode = (DefaultMutableTreeNode) e.getPath().getLastPathComponent());
+//        explorer.addMouseListener(new MouseAdapter() {
+//            @Override
+//            public void mouseClicked(MouseEvent e) {
+//                TreePath tp = explorer.getPathForLocation(e.getX(), e.getY());
+//                if (e.getButton() == MouseEvent.BUTTON1) {
+//                    if (tp == null || tp.getLastPathComponent() == null || (selectedNode != null && selectedNode.equals(tp.getLastPathComponent()))) {
+//                        selectedNode = null;
+//                    } else {
+//                        selectedNode = (DefaultMutableTreeNode) tp.getLastPathComponent();
+//                    }
+//                    explorer.repaint();
+//                }
+//                if (e.getButton() == MouseEvent.BUTTON3) {
+//                    if (tp != null) {
+//                        selectedNode = (DefaultMutableTreeNode) tp.getLastPathComponent();
+//                        explorer.repaint();
+//                        JPopupMenu explorerMenu = new JPopupMenu("Műveletek");
+//
+//                        JMenuItem newDiagram = new JMenuItem("Új diagram");
+//                        JMenuItem delete = new JMenuItem("Törlés");
+//                        explorerMenu.add(newDiagram);
+//                        newDiagram.addActionListener(em -> diagramController.create());
+//                        explorerMenu.add(delete);
+//                        if(extract(selectedNode, Project.class) == null) {
+//                            delete.setVisible(false);
+//                        }
+//                        explorerMenu.show((Component) e.getSource(), e.getX(), e.getY());
+//                    }
+//                }
+//            }
+//        });
     }
 
     private void addButton(JComponent component, String text, ActionListener l) {
@@ -397,24 +423,12 @@ public class StruckerApplication implements Application {
 
     @Override
     public DefaultMutableTreeNode getSelectedNode() {
-        return selectedItem;
+        return explorer.getSelectedNode();
     }
 
     @Override
     public List<Project> getOpenProjects() {
         return openProjects;
-    }
-
-    @Override
-    public void addToExplorer(DefaultMutableTreeNode parent, DefaultMutableTreeNode child) {
-        ((DefaultTreeModel)explorer.getModel()).insertNodeInto(child, parent, 0);
-        ((DefaultTreeModel)explorer.getModel()).reload(parent);
-    }
-
-    @Override
-    public void removeFromExplorer(DefaultMutableTreeNode child) {
-        ((DefaultTreeModel) explorer.getModel()).removeNodeFromParent(child);
-        ((DefaultTreeModel) explorer.getModel()).reload(child.getParent());
     }
 
     @Override

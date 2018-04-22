@@ -23,11 +23,6 @@ public abstract class StruckerDialog extends JDialog{
         });
     }
 
-    public void showDialog() {
-        setModal(true);
-        setVisible(true);
-    }
-
     protected abstract void ok();
 
     protected void cancel() {
