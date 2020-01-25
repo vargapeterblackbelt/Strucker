@@ -8,7 +8,7 @@ import java.awt.*;
 public enum MessageType {
     INFO(Color.blue, "Információ", JOptionPane.INFORMATION_MESSAGE),
     ERROR(Color.red, "Hiba", JOptionPane.ERROR_MESSAGE),
-    SUCCESS(Color.green, "Siker", JOptionPane.PLAIN_MESSAGE);
+    SUCCESS(Color.green, "Siker", JOptionPane.INFORMATION_MESSAGE);
 
     @Getter
     private Color color;

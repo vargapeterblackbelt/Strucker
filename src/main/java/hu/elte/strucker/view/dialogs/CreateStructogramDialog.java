@@ -67,6 +67,13 @@ public class CreateStructogramDialog extends StruckerDialog {
         cancelButton = new JButton();
         warningLabel = new JLabel();
 
+
+        typeLabel.setFont(FONT);
+        definitionLabel.setFont(FONT);
+        warningLabel.setFont(FONT);
+        definitionField.setFont(FONT);
+        typeComboBox.setFont(FONT);
+
         setTitle("Elem beszúrása");
 
         typeLabel.setText("Beszúrandó elem típusa");

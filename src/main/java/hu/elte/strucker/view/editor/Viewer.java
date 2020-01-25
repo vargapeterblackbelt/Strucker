@@ -132,7 +132,7 @@ public class Viewer extends JPanel implements StructogramEditor {
         panel.setBackground(Color.lightGray);
         menu.setBorder(BorderFactory.createRaisedBevelBorder());
 
-        JMenuItem properties = new JMenuItem("Tulajdonságok", propertiesIcon);
+        JMenuItem properties = new JMenuItem("Szerkesztés", propertiesIcon);
         properties.addActionListener(e -> controller.properties());
         menu.add(properties);
 
@@ -164,7 +164,7 @@ public class Viewer extends JPanel implements StructogramEditor {
         panel.setBackground(Color.lightGray);
         menu.setBorder(BorderFactory.createRaisedBevelBorder());
 
-        JMenuItem properties = new JMenuItem("Tulajdonságok", propertiesIcon);
+        JMenuItem properties = new JMenuItem("Szerkesztés", propertiesIcon);
         properties.addActionListener(e -> controller.properties());
         menu.add(properties);
 

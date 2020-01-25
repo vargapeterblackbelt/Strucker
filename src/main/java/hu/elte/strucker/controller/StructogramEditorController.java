@@ -3,6 +3,7 @@ package hu.elte.strucker.controller;
 import hu.elte.strucker.model.diagram.*;
 import hu.elte.strucker.view.dialogs.CreateStructogramDialog;
 import hu.elte.strucker.view.dialogs.DiagramPropertiesDialog;
+import hu.elte.strucker.view.dialogs.TextInputDialog;
 import hu.elte.strucker.view.editor.StructogramEditor;
 
 import javax.swing.*;
@@ -134,30 +135,33 @@ public class StructogramEditorController implements StructogramEditorOperations 
     public void properties() {
         Structogram selectedStructogram = editor.getSelectedStructogram();
         if (selectedStructogram != null) {
-            if(selectedStructogram instanceof Diagram) {
+            if (selectedStructogram instanceof Diagram) {
                 DiagramPropertiesDialog dialog = new DiagramPropertiesDialog((Diagram) selectedStructogram);
                 if (!dialog.isCancelled()) {
                     editor.fireStructogramChanged();
                 }
             } else {
                 String input;
-                if(selectedStructogram instanceof Statement) {
+                if (selectedStructogram instanceof Statement) {
                     Statement statement = (Statement) selectedStructogram;
-                    input = JOptionPane
-                            .showInputDialog((Component) editor, "Állítás megfogalmazása", (statement).getStatement());
-                    if(input!= null)statement.setStatement(input);
+//                    input = JOptionPane
+//                            .showInputDialog((Component) editor, "Állítás megfogalmazása", (statement).getStatement());
+                    input = TextInputDialog.getTextInput("Kifejezés szerkesztése", "Kifejezés", statement.getStatement());
+                    if (input != null) statement.setStatement(input);
                 } else if (selectedStructogram instanceof Loop) {
                     Loop loop = (Loop) selectedStructogram;
-                    input = JOptionPane
-                            .showInputDialog((Component) editor, "Feltétel megfogalmazása", loop.getCondition());
-                    if(input!= null)loop.setCondition(input);
+//                    input = JOptionPane
+//                            .showInputDialog((Component) editor, "Feltétel megfogalmazása", loop.getCondition());
+                    input = TextInputDialog.getTextInput("Ciklus feltétel szerkesztése", "Feltétel", loop.getCondition());
+                    if (input != null) loop.setCondition(input);
                 } else {
                     Selection selection = (Selection) selectedStructogram;
-                    input = JOptionPane
-                            .showInputDialog((Component) editor, "Feltétel megfogalmazása", selection.getCondition());
-                    if(input!= null)selection.setCondition(input);
+//                    input = JOptionPane
+//                            .showInputDialog((Component) editor, "Feltétel megfogalmazása", selection.getCondition());
+                    input = TextInputDialog.getTextInput("Elágazási feltétel szerkesztése", "Feltétel", selection.getCondition());
+                    if (input != null) selection.setCondition(input);
                 }
-                if(input != null) {
+                if (input != null) {
                     selectedStructogram.setErrors(new ArrayList<>());
                     editor.fireDiagramChanged();
                 }

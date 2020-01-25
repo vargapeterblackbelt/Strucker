@@ -1,13 +1,13 @@
 package hu.elte.strucker.view.dialogs;
 
-import hu.elte.strucker.service.MessageType;
 import lombok.Getter;
 
 import javax.swing.*;
-
-import static hu.elte.strucker.service.MessageService.message;
+import java.awt.*;
 
 public abstract class StruckerDialog extends JDialog {
+
+    protected static final Font FONT = new Font("Lucida", Font.PLAIN, 18);
 
     @Getter
     private boolean cancelled = false;

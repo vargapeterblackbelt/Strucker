@@ -14,11 +14,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 import static hu.elte.strucker.model.HealthCheck.ERROR;
 import static hu.elte.strucker.model.ObjectLoader.serialize;
 import static hu.elte.strucker.service.MessageService.message;
 
+@SuppressWarnings("ALL")
 public class DiagramController implements DiagramOperations {
 
     private Application app;
@@ -134,17 +136,58 @@ public class DiagramController implements DiagramOperations {
             ok = false;
             e.printStackTrace();
             JOptionPane.showMessageDialog(app.getFrame(), "Nincs elég memória", "Futási hiba", JOptionPane.ERROR_MESSAGE);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             ok = false;
             e.printStackTrace();
             JOptionPane.showMessageDialog(app.getFrame(), "Hiba keletkezett a lefutás közben: \n" + e.getMessage(), "Futási hiba", JOptionPane.ERROR_MESSAGE);
         }
         if (ok) {
-            if(result != null)
-                JOptionPane.showMessageDialog(app.getFrame(), "A diagram visszatérési értéke: \n" + result, "Eredmény", JOptionPane.INFORMATION_MESSAGE, null);
+            if (result != null)
+                JOptionPane.showMessageDialog(app.getFrame(), "return = " + formatResult(result), "Eredmény", JOptionPane.INFORMATION_MESSAGE, null);
             else
                 JOptionPane.showMessageDialog(app.getFrame(), "Nincs visszatérési érték", "Eredmény", JOptionPane.INFORMATION_MESSAGE, null);
         }
+    }
+
+    @SuppressWarnings("rawtypes")
+    private String formatResult(Object result) {
+        if (result instanceof Number) {
+            return formatNumber((Number) result);
+        }
+        if (result instanceof Boolean) {
+            return formatBoolean((Boolean) result);
+        }
+        if (result instanceof List) {
+           return formatList((List) result);
+        }
+        return result.toString();
+    }
+
+    private String formatNumber(Number number) {
+        return number.doubleValue() == number.intValue() ? "" + number.intValue() : number.toString();
+    }
+
+    private String formatBoolean(Boolean b) {
+        return b ? "igaz" : "hamis";
+    }
+
+    private String formatList(List list) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (Object o : list) {
+            if (o instanceof Boolean) {
+                sb.append(formatBoolean((Boolean) o)).append(", ");
+            } else if (o instanceof Number) {
+                sb.append(formatNumber((Number) o)).append(", ");
+            } else if (o instanceof List) {
+                sb.append(formatList((List) o)).append(", ");
+            } else {
+                sb.append(o.toString());
+            }
+        }
+        sb.append("]");
+        String result = sb.toString();
+        result.replace(", ]", "]");
+        return result;
     }
 }

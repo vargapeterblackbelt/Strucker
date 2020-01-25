@@ -1,8 +1,8 @@
 package hu.elte.strucker.model.diagram;
 
+import hu.elte.strucker.model.HealthCheck;
 import hu.elte.strucker.model.interpretation.Parameter;
 import hu.elte.strucker.model.interpretation.parsed.ParsedStructogram;
-import hu.elte.strucker.model.HealthCheck;
 import hu.elte.strucker.model.project.Library;
 import hu.elte.strucker.recognizer.ExecuteException;
 import hu.elte.strucker.recognizer.Expression;
@@ -14,6 +14,7 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -39,7 +40,7 @@ public class Diagram extends Sequence {
     private HealthCheck healthCheck = UNKNOWN;
 
     @JsonIgnore
-    private Map<String, Identifier> scope = new HashMap<>();
+    private List<Map<String, Identifier>> scopes = new ArrayList<>();
 
     @JsonCreator
     public Diagram(@JsonProperty("name") String name,
@@ -58,19 +59,19 @@ public class Diagram extends Sequence {
         int headWidth = textWidth(signature, font);
         int textHeight = textHeight(font);
         int headX = x, stgX = x;
-        if(headWidth < width) {
-            headX = x + width/2 - headWidth/2;
+        if (headWidth < width) {
+            headX = x + width / 2 - headWidth / 2;
         } else {
-            stgX = x + headWidth/2 - width/2;
+            stgX = x + headWidth / 2 - width / 2;
         }
         g.setColor(isHovered() && !capture ? DEFAULT_SIGNATURE_HOVER_COLOR : DEFAULT_SIGNATURE_COLOR);
-        if(!capture)
+        if (!capture)
             detectionArea = new Rectangle(headX, y, headWidth, textHeight);
         g.fillRoundRect(headX, y, headWidth, textHeight, 12, 12);
         g.setColor(DEFAULT_FONT_COLOR);
         g.drawRoundRect(headX, y, headWidth, textHeight, 10, 10);
         drawTextCentered(signature, headX, y, headWidth, textHeight, g, font);
-        g.drawLine(headX + headWidth /2, y + textHeight, headX + headWidth /2, y + textHeight + font.getSize());
+        g.drawLine(headX + headWidth / 2, y + textHeight, headX + headWidth / 2, y + textHeight + font.getSize());
         super.draw(g, stgX, y + textHeight + font.getSize(), width, balanceHeight, font, capture);
     }
 
@@ -91,7 +92,7 @@ public class Diagram extends Sequence {
             params.append(parameter.getName()).append(":").append(parameter.getType().getSimpleName());
         }
 
-        return name + "(" + params.toString() + ") : "+type.getSimpleName();
+        return name + "(" + params.toString() + ") : " + type.getSimpleName();
     }
 
     @Override
@@ -104,14 +105,14 @@ public class Diagram extends Sequence {
 
     @JsonIgnore
     public Dimension getImageSize(Font font) {
-        int width = Math.max(textWidth(getSignature(), font), widthNeeded(font))+1;
-        int height = heightNeeded(font) + 2*textHeight(font);
+        int width = Math.max(textWidth(getSignature(), font), widthNeeded(font)) + 1;
+        int height = heightNeeded(font) + 2 * textHeight(font);
         return new Dimension(width, height);
     }
 
     @JsonIgnore
     public String getFullName() {
-        return library.getName() +"::"+name;
+        return library.getName() + "::" + name;
     }
 
     private Map<String, Identifier> setupScope() {
@@ -126,12 +127,17 @@ public class Diagram extends Sequence {
         return scope;
     }
 
+    @SuppressWarnings("unchecked")
     public <T> T eval(Class<T> type) throws Exception {
-        scope = setupScope();
+        scopes.add(setupScope());
         ParsedStructogram parsedStructogram = super.parse(this);
         parsedStructogram.execute();
-        Identifier aReturn = scope.get("return");
+        Identifier aReturn = getCurrentScope().get("return");
         return (T) aReturn.getValue();
+    }
+
+    public Map<String, Identifier> getCurrentScope() {
+        return scopes.get(scopes.size() - 1);
     }
 
     public <T> T eval(Class<T> type, List<Expression> params) throws Exception {
@@ -150,6 +156,7 @@ public class Diagram extends Sequence {
             e.printStackTrace();
         }
         Identifier aReturn = scope.get("return");
+        //noinspection unchecked
         return (T) aReturn.getValue();
     }
 

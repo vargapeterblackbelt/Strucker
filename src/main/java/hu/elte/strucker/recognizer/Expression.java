@@ -2,6 +2,7 @@ package hu.elte.strucker.recognizer;
 
 import lombok.Getter;
 
+@SuppressWarnings({"unchecked", "rawtypes"})
 @Getter
 public class Expression {
     private Class type;

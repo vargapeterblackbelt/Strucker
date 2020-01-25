@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+@SuppressWarnings("unchecked")
 @Getter
 public class ExpressionRecognizer implements StructoLangOperations {
     private Map<String, Identifier> scope;
@@ -27,9 +28,17 @@ public class ExpressionRecognizer implements StructoLangOperations {
                 errors.add("Nem számértékű kifejezés: " + a.getText());
             if (!b.hasType(Number.class))
                 errors.add("Nem számértékű kifejezés: " + b.getText());
-            return new Expression(Number.class, () -> null, text);
+            return new Expression(Number.class, () -> {
+                System.out.println("null");
+                return null;
+            }, text);
         } else {
-            return new Expression(Number.class, () -> a.eval(Number.class).doubleValue() + b.eval(Number.class).doubleValue(), text);
+            return new Expression(Number.class, () -> {
+                double operand1 = a.eval(Number.class).doubleValue();
+                double operand2 = b.eval(Number.class).doubleValue();
+                System.out.println(operand1 + " + " + operand2);
+                return operand1 + operand2;
+            }, text);
         }
     }
 
@@ -72,9 +81,13 @@ public class ExpressionRecognizer implements StructoLangOperations {
             return new Expression(Number.class, () -> null, text);
         } else {
             return new Expression(Number.class, () -> {
-                if (b.eval(Number.class).doubleValue() == 0)
+                double operand2 = b.eval(Number.class).doubleValue();
+                double operand1 = a.eval(Number.class).doubleValue();
+                if (operand2 == 0) {
                     throw new ExecuteException("Nullával való osztást nem értelmezzük", b);
-                return a.eval(Number.class).doubleValue() / b.eval(Number.class).doubleValue();
+                }
+                System.out.println(operand1 + " / " + operand2);
+                return operand1 / operand2;
             }, text);
         }
     }
@@ -92,6 +105,7 @@ public class ExpressionRecognizer implements StructoLangOperations {
             return new Expression(Number.class, () -> {
                 int A = a.eval(Number.class).intValue();
                 int B = b.eval(Number.class).intValue();
+                System.out.println(A + " mod " + B);
                 return A % B;
             }, text);
         }
@@ -154,11 +168,21 @@ public class ExpressionRecognizer implements StructoLangOperations {
             return new Expression(Boolean.class, () -> false, text);
         } else {
             Operation operation = () -> null;
-            if(a.hasType(Number.class)) {
-                operation = () -> a.eval(Number.class).doubleValue() == b.eval(Number.class).doubleValue();
+            if (a.hasType(Number.class)) {
+                operation = () -> {
+                    double operand1 = a.eval(Number.class).doubleValue();
+                    double operand2 = b.eval(Number.class).doubleValue();
+                    System.out.println(operand1 + " == " + operand2);
+                    return operand1 == operand2;
+                };
             } else {
                 if (a.hasType(Boolean.class)) {
-                    operation = () -> a.eval(Boolean.class).equals(b.eval(Boolean.class));
+                    operation = () -> {
+                        Boolean operand1 = a.eval(Boolean.class);
+                        Boolean operand2 = b.eval(Boolean.class);
+                        System.out.println(operand1 + " == " + operand2);
+                        return operand1.equals(operand2);
+                    };
                 } else {
                     if (a.hasType(String.class)) {
                         operation = () -> a.eval(String.class).equals(b.eval(String.class));
@@ -183,7 +207,12 @@ public class ExpressionRecognizer implements StructoLangOperations {
             if (!bOk) errors.add("Nem szám értékű kifejezés: " + b.getText());
             return new Expression(Boolean.class, () -> null, text);
         } else {
-            return new Expression(Boolean.class, () -> a.eval(Number.class).doubleValue() < b.eval(Number.class).doubleValue(), text);
+            return new Expression(Boolean.class, () -> {
+                double operand1 = a.eval(Number.class).doubleValue();
+                double operand2 = b.eval(Number.class).doubleValue();
+                System.out.println(operand1 + " < " + operand2);
+                return operand1 < operand2;
+            }, text);
         }
     }
 
@@ -379,6 +408,7 @@ public class ExpressionRecognizer implements StructoLangOperations {
                 return new Expression(identifier.getType(), () -> {
                     Object eval = value.eval(identifier.getType());
                     identifier.setValue(eval);
+                    System.out.println(identifier.getName() + " := " + eval.toString());
                     return eval;
                 }, id);
             }
@@ -488,10 +518,11 @@ public class ExpressionRecognizer implements StructoLangOperations {
 
     @Override
     public Expression returns(Expression expression) {
-        if(!expression.hasType(scope.get("return").getType())) {
+        if (!expression.hasType(scope.get("return").getType())) {
             errors.add("Nem megfelelő típus tér vissza");
-            return new Expression(Object.class, () -> null, "return "+expression.getText());
-        }        return new Expression(expression.getType(), () -> {
+            return new Expression(Object.class, () -> null, "return " + expression.getText());
+        }
+        return new Expression(expression.getType(), () -> {
             Object eval = expression.eval(expression.getType());
             scope.get("return").setValue(eval);
             return eval;
@@ -510,7 +541,7 @@ public class ExpressionRecognizer implements StructoLangOperations {
         try {
             e = parser.eval().e;
         } catch (RecognitionException exp) {
-            errors.add("Felismerhetetlen input: "+exp.getInputStream().toString());
+            errors.add("Felismerhetetlen input: " + exp.getInputStream().toString());
         }
         return e;
     }
