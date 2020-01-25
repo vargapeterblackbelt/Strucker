@@ -2,107 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a51a84a-a0f7-475c-a531-0342dcbe9038" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Strucker" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Viewer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/Viewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2173">
-              <caret line="113" column="70" lean-forward="false" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1101#1970#0" expanded="true" />
-                <element signature="e#1969#1970#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StruckerApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/StruckerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/ViewElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatementViewElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/StatementViewElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="27" column="67" lean-forward="false" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiagramViewElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/DiagramViewElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoopViewElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/LoopViewElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionViewElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/SelectionViewElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,83 +25,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>upperCase</find>
-      <find>get</find>
-      <find>type</find>
-      <find>DefaultMu</find>
-      <find>BagLayout()</find>
-      <find>projectExplorer</find>
+      <find>save</find>
+      <find>split</find>
+      <find>Changed</find>
+      <find>saved</find>
       <find>add</find>
       <find>change</find>
-      <find>changed</find>
-      <find>fire</find>
-      <find>Proj</find>
-      <find>draw</find>
-      <find>paint</find>
-      <find>getGraphics</find>
+      <find>remove</find>
+      <find>All</find>
+      <find>append</find>
+      <find>concat(</find>
+      <find>charat</find>
+      <find>expr</find>
+      <find>check</find>
+      <find>RecognitionEx</find>
+      <find>recognizer.getErr</find>
+      <find>recognizer</find>
+      <find>try</find>
+      <find>throw</find>
+      <find>widthNeeded</find>
+      <find>catch</find>
+      <find>Exception</find>
+      <find>set</find>
+      <find>Akció</find>
+      <find>mod</find>
+      <find>get</find>
+      <find>mod(</find>
+      <find>equals</find>
+      <find>get(</find>
+      <find>Expression(List.class</find>
+      <find>assign</find>
     </findStrings>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/ExplorableNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/StruckerExplorerNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/ExplorerNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/Explorer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/StruckerExplorer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/operations/ProjectOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/ProjectController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/operations/DiagramOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/helper/MouseInfoHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/creation/CreateStructogramDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/operations/StructogramOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/DiagramController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/helper/TreeHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/properties/DiagramPropertiesDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/properties/ProjectPropertiesDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/ExplorerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/StructogramController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/StructogramExplorer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/node/ExplorerNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/node/AbstractExplorerNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/AbstractExplorable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Structogram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Statement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Sequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Selection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Loop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Diagram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/creation/StructogramPropertiesDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/project/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/Explorable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/helper/ObjectLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/meta/ProjectInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/TestDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/SequenceViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/ViewerHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/StructogramView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/DiagramViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/StatementViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/LoopViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/FillerViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/SelectionViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/ViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/DiagramView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/ViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/StatementViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/DiagramViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/LoopViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/SelectionViewElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/Viewer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/StruckerApplication.java" />
-      </list>
-    </option>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/hu/elte/strucker/interpretation/parsed</dir>
+    </dirStrings>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -205,28 +75,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Strucker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Strucker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="490" />
-    <option name="y" value="140" />
-    <option name="width" value="1376" />
-    <option name="height" value="988" />
+    <option name="width" value="1920" />
+    <option name="height" value="1176" />
   </component>
+  <component name="ProjectId" id="1VpecTQBNrsHHl6OxSPirb0pBkt" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -236,6 +92,9 @@
           </State>
           <State>
             <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
           </State>
           <State>
             <id>Data flow issuesJava</id>
@@ -255,296 +114,151 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>ConstantConditions</id>
+            <id>UnusedAssignment</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="elte" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="elte" type="462c0819:PsiDirectoryNode" />
-              <item name="strucker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="elte" type="462c0819:PsiDirectoryNode" />
-              <item name="strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../anakin" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.31822303" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/gen-listener" value="true" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java/hu/elte/interpreter" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/package" value="parser" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/gen-listener" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java/hu/elte/interpreter" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/package" value="parser" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/interpretation/parser/StructoLang.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/interpretation/parser/StructoLang.g4::/gen-listener" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/interpretation/parser/StructoLang.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/interpretation/parser/StructoLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/StructoLang.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/StructoLang.g4::/gen-listener" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/StructoLang.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/StructoLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/parser/StructoLang.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/parser/StructoLang.g4::/gen-listener" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/parser/StructoLang.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/parser/StructoLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4::/gen-listener" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/auto-gen" value="false" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java/hu/elte/interpreter" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/gen-listener" value="false" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/gen-visitor" value="false" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/struckerLang.g4::/package" value="parser" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/auto-gen" value="false" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/output-dir" value="$PROJECT_DIR$/src/main/java/hu/elte/interpreter" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/package" value="parser" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/gen-listener" value="true" />
-    <property name="$PROJECT_DIR$/src/main/java/hu/elte/interpreter/parser/StruckerLang.g4::/gen-visitor" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="Explorer&#9;FILE&#9;file:///home/peter/work/git/Strucker/Strucker/src/main/java/hu/elte/strucker/view/editor/Explorer.java&#10;check&#9;PSI&#9;JAVA://hu.elte.strucker.application.StruckerToolBar#check&#10;DiagramCon&#9;FILE&#9;file:///home/peter/work/git/Strucker/Strucker/src/main/java/hu/elte/strucker/controller/DiagramController.java&#10;fireProjectO&#9;PSI&#9;JAVA://hu.elte.strucker.controller.Application#fireProjectOpening&#10;viewer&#9;FILE&#9;file:///home/peter/work/git/Strucker/Strucker/src/main/java/hu/elte/strucker/view/viewer/Viewer.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31822303" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/expression/logical/GreaterThan.java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
+      <recent name="$PROJECT_DIR$/Application" />
+      <recent name="$PROJECT_DIR$/Application/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/parser" />
+      <recent name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hu.elte.strucker.view.dialogs.properties" />
       <recent name="hu.elte.strucker.view.dialogs" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/fonts" />
-      <recent name="$PROJECT_DIR$/.." />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer" />
+      <recent name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/interpretation" />
+      <recent name="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpreter/parser" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Viewer">
-    <configuration name="CreateStructogramDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Expression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.elte.strucker.recognizer.Expression" />
+      <module name="Strucker" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.elte.strucker.view.dialogs.*" />
+          <option name="PATTERN" value="hu.elte.strucker.recognizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hu.elte.strucker.view.dialogs.CreateStructogramDialog" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Strucker" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DiagramView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="ExpressionRecognizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.elte.strucker.recognizer.ExpressionRecognizer" />
+      <module name="Strucker" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.elte.strucker.view.viewer.elements.*" />
+          <option name="PATTERN" value="hu.elte.strucker.recognizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hu.elte.strucker.view.viewer.DiagramView" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Strucker" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="StruckerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.elte.Main" />
+      <module name="Strucker" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.elte.strucker.*" />
+          <option name="PATTERN" value="hu.elte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="hu.elte.strucker.StruckerApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Strucker" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TestDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hu.TestDialog" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Strucker" />
-      <envs />
+    <configuration name="Strucker-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <method v="2" />
     </configuration>
-    <configuration name="Viewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hu.elte.strucker.view.viewer.elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hu.elte.strucker.view.viewer.Viewer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Strucker" />
-      <envs />
+    <configuration name="Strucker-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT.jar" />
+      <method v="2" />
     </configuration>
-    <configuration name="ViewerHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hu.elte.strucker.view.viewer.elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hu.elte.strucker.view.viewer.ViewerHelper" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Strucker" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CreateStructogramDialog" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestDialog" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Viewer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ViewerHelper" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DiagramView" />
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Expression" />
+      <item itemvalue="Application.ExpressionRecognizer" />
+      <item itemvalue="JAR Application.Strucker-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <item itemvalue="JAR Application.Strucker-1.0-SNAPSHOT.jar" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Viewer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DiagramView" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ViewerHelper" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestDialog" />
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.Strucker-1.0-SNAPSHOT.jar" />
+        <item itemvalue="Application.ExpressionRecognizer" />
+        <item itemvalue="Application.Expression" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -556,6 +270,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521278148370</updated>
+      <workItem from="1577954545115" duration="1322000" />
     </task>
     <servers />
   </component>
@@ -568,391 +283,97 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1052" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2349138" sideWeight="0.5255591" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12832801" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2338362" sideWeight="0.4744409" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23322684" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2880724" sideWeight="0.50643086" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265086" sideWeight="0.48722044" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="100" y="100" width="1720" height="852" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UML design tool window" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom" timestamp="1577973865026">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1200/992.1200.1920.1080/1920.0.1920.1200@0.0.1920.1200" timestamp="1577973865026" />
+    <state width="1878" height="299" key="GridCell.Tab.0.center" timestamp="1577973865025">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="299" key="GridCell.Tab.0.center/0.0.1920.1200/992.1200.1920.1080/1920.0.1920.1200@0.0.1920.1200" timestamp="1577973865025" />
+    <state width="1878" height="299" key="GridCell.Tab.0.left" timestamp="1577973865025">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="299" key="GridCell.Tab.0.left/0.0.1920.1200/992.1200.1920.1080/1920.0.1920.1200@0.0.1920.1200" timestamp="1577973865025" />
+    <state width="1878" height="299" key="GridCell.Tab.0.right" timestamp="1577973865026">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="299" key="GridCell.Tab.0.right/0.0.1920.1200/992.1200.1920.1080/1920.0.1920.1200@0.0.1920.1200" timestamp="1577973865026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/ProjectController.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/ExpressionRecognizer.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="scope" />
+      </configuration>
+    </watches-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/operations/ProjectOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/helper/MouseInfoHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/helper/Naming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/operations/DiagramOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/operations/StructogramOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/DiagramController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/properties/DiagramPropertiesDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/StructogramController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="70" column="77" lean-forward="false" selection-start-line="70" selection-start-column="77" selection-end-line="70" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/creation/CreateStructogramDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/properties/ProjectPropertiesDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer.java" />
-    <entry file="jar:///usr/java/jdk1.8.0_161/src.zip!/java/awt/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1420">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/node/AbstractExplorerNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/node/ExplorerNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/explorer/StructogramExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Structogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Sequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/AbstractExplorable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/project/Package.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/helper/TreeHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/helper/ObjectLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/meta/ProjectInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_161/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="263" column="19" lean-forward="false" selection-start-line="263" selection-start-column="19" selection-end-line="263" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/TestDia.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/TestDia.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/StruckerDialog.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/StruckerDialog.jfd" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/TestDialog.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/project/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/creation/StructogramPropertiesDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Diagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_161/src.zip!/javax/swing/JPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_161/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="386" column="32" lean-forward="false" selection-start-line="386" selection-start-column="21" selection-end-line="386" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/tools/GradientPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/ViewerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/StructogramType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/Explorable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/FillerViewElement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Loop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/DiagramView.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/ViewElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/StatementViewElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" column="67" lean-forward="false" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/DiagramViewElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/LoopViewElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/elements/SelectionViewElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/viewer/Viewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2173">
-          <caret line="113" column="70" lean-forward="false" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1101#1970#0" expanded="true" />
-            <element signature="e#1969#1970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/controllers/ViewerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="124" column="51" lean-forward="false" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/StruckerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>getJMenuBar()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>((ParsedSequence)super.parse(this)).execute()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>hu.elte.strucker.model.interpretation.parsed.ParsedSequence</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((ParsedSequence)super.parse(this)).execute();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>hu.elte.strucker.model.interpretation.parsed.ParsedSequence</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>parsedCondition.eval(Boolean.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((ExprContext)_localctx).e</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Expression(Object.class, () -&gt; {
+            int i = index.eval(Number.class).intValue();
+            List list0 = list.eval(List.class);
+            if (list0.isEmpty() || i &lt; 0 || i &gt;= list0.size())
+                throw new ExecuteException(&quot;A listának nincsen &quot; + i + &quot;. eleme&quot;, index);
+            return list.eval(List.class).get(index.eval(Number.class).intValue());
+        }, text)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Expression)((ParsedStatement)((java.util.ArrayList)((ParsedSequence)parsedStructogram).sequence).get(0)).statement).operation</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>hu.elte.strucker.recognizer.Expression,java.util.ArrayList,hu.elte.strucker.interpretation.parsed.ParsedSequence,hu.elte.strucker.interpretation.parsed.ParsedStatement</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="masterDetails">
     <states>
@@ -1005,7 +426,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Strucker</last-edited>
+          <last-edited>Application</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

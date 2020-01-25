@@ -24,7 +24,7 @@ public class MotionPanel extends JPanel {
             @Override
             public void mouseDragged(MouseEvent e) {
 
-                // get location of Window
+                // getService location of Window
                 int thisX = parent.getLocation().x;
                 int thisY = parent.getLocation().y;
 

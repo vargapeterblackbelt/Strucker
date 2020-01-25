@@ -1,72 +1,62 @@
 package hu.elte.strucker.model.project;
 
-import hu.elte.strucker.model.AbstractExplorable;
+import hu.elte.strucker.model.HealthCheck;
+import hu.elte.strucker.model.ProjectStatus;
 import hu.elte.strucker.model.diagram.Diagram;
 import lombok.Getter;
-import lombok.NonNull;
 import lombok.Setter;
+import org.codehaus.jackson.annotate.JsonCreator;
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.annotate.JsonProperty;
 
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.MutableTreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+import static hu.elte.strucker.model.HealthCheck.UNKNOWN;
+import static hu.elte.strucker.model.ProjectStatus.SAVED;
+
 @Getter
 @Setter
-public class Project extends AbstractExplorable<Diagram> {
+public class Project {
 
-    @NonNull
     private String name;
-    private String description;
+
     private String location;
 
-    private List<Diagram> diagrams;
+    @JsonIgnore
+    private HealthCheck healthCheck = UNKNOWN;
 
-    public Project(String name) {
-        super();
+    @JsonIgnore
+    private ProjectStatus status = SAVED;
+
+    private List<Library> libraries = new ArrayList<>();
+
+    @JsonCreator
+    public Project(@JsonProperty("name") String name,
+                   @JsonProperty("location") String location,
+                   @JsonProperty("libraries") List<Library> libraries) {
         this.name = name;
-        description = null;
-        location = null;
-        init();
-    }
-
-    public Project() {
-        super();
-        init();
-    }
-
-    private void init() {
-        diagrams = new ArrayList<>();
-    }
-
-    public void addDiagram(Diagram d) {
-        diagrams.add(d);
-    }
-
-    public void removeDiagram(Diagram d) {
-        diagrams.remove(d);
-    }
-
-    @Override
-    public boolean hasChilds() {
-        return !diagrams.isEmpty();
-    }
-
-    @Override
-    public List<Diagram> getChilds() {
-        return diagrams;
-    }
-
-    public DefaultMutableTreeNode getTree() {
-        DefaultMutableTreeNode projectRoot = new DefaultMutableTreeNode(this);
-        for (Diagram diagram : diagrams) {
-            projectRoot.add((MutableTreeNode) diagram.getTree());
+        this.location = location;
+        for (Library library : libraries) {
+            addLibrary(library);
         }
-        return projectRoot;
     }
 
-    @Override
-    public String getExploredName() {
-        return name + " ["+location+"]";
+    public void addLibrary(Library library) {
+        library.setProject(this);
+        libraries.add(library);
+    }
+
+    public void removeLibrary(Library library) {
+        libraries.remove(library);
+    }
+
+    @JsonIgnore
+    public List<Diagram> getDiagrams() {
+        List<Diagram> diagrams = new ArrayList<>();
+        for (Library library : libraries) {
+            diagrams.addAll(library.getDiagrams());
+        }
+        return diagrams;
     }
 }
