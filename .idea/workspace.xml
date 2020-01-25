@@ -2,404 +2,512 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e9863e-5281-425f-ba41-0633e23afdff" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Strucker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/Strucker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/Strucker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/fonts/Consolas.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/action24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/action64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/branch24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/branch64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/default24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/default64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/diagram24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/diagram64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/loop24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/loop64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/node_can_collapse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/node_can_expand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/node_is_leaf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/project.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/project24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/project64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/project_node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/sequence24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/sequence64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/strucker24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/icons/strucker64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/StruckerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/ApplicationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/ConsoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/DiagramController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/EditorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/ProjectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/StructogramController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/controllers/ViewerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/operations/ApplicationOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/operations/ConsoleOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/operations/DiagramOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/operations/EditorOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/operations/ProjectOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/operations/StructogramOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/operations/ViewerOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/helper/Naming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/helper/ObjectLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/helper/TreeHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/AbstractExplorable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/Explorable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Diagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Diagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Loop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Statement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Structogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Structogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/StructogramType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/StructogramType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpreter/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpreter/Parameter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpreter/StructogramInterpreter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpreter/StructogramValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpreter/processed/ProcessedSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpreter/processed/ProcessedStructogram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/meta/ProjectInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/parser/StructoLang.g4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/project/Package.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/project/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/project/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/StruckerFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/StruckerDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/StruckerDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/creation/CreateStructogramDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/creation/ParameterDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/creation/StructogramPropertiesDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/properties/DiagramPropertiesDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/properties/LoopPropertiesDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/properties/ProjectPropertiesDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/properties/SelectionPropertiesDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/properties/StatementPropertiesDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/explorer/StruckerExplorer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/explorer/StructogramExplorer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/explorer/node/AbstractExplorerNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/explorer/node/ExplorerNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/messages/YesNoMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/MotionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/MotionPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/StruckerButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/viewer/Viewer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/viewer/ViewerHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/viewer/elements/DiagramViewElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/viewer/elements/LoopViewElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/viewer/elements/SelectionViewElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/viewer/elements/StatementViewElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/viewer/elements/ViewElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/Strucker-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/Strucker-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/Main$ZebraJTree$RendererEditorWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/Main$ZebraJTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/StruckerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/ApplicationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/ConsoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/DiagramController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/EditorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/ExplorerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/ProjectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/controllers/StructogramController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/operations/ApplicationOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/operations/ConsoleOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/operations/DiagramOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/operations/EditorOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/operations/ExplorerOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/operations/ProjectOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/operations/StructogramOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/helper/Naming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/helper/ObjectLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/helper/TreeHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/AbstractExplorable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/Explorable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Diagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Diagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Loop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Sequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Statement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Structogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Structogram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/StructogramType.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/StructogramType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpreter/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpreter/Parameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpreter/StructogramInterpreter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpreter/StructogramValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpreter/processed/ProcessedSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpreter/processed/ProcessedStructogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/meta/ProjectInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/project/Package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/project/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/project/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/StruckerFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/StruckerDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/StruckerDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/StruckerDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/creation/CreateStructogramDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/creation/ParameterDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/creation/ParameterDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/creation/StructogramPropertiesDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/properties/DiagramPropertiesDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/properties/LoopPropertiesDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/properties/ProjectPropertiesDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/properties/SelectionPropertiesDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/properties/StatementPropertiesDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/explorer/StruckerExplorer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/explorer/StruckerExplorer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/explorer/StructogramExplorer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/explorer/node/AbstractExplorerNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/explorer/node/ExplorerNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/messages/YesNoMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/StruckerButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/Viewer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/Viewer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/ViewerHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/elements/DiagramViewElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/elements/LoopViewElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/elements/SelectionViewElement$FillerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/elements/SelectionViewElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/elements/StatementViewElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/viewer/elements/ViewElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strucker/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__com_ibm_icu_icu4j_58_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_58_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_antlr_ST4_4_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_antlr_antlr4_4_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_antlr_antlr4_maven_plugin_4_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_maven_plugin_4_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_model_3_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_maven_settings_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_sonatype_plexus_plexus_build_api_0_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_build_api_0_0_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_sonatype_sisu_sisu_guava_0_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guava_0_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_no_aop_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_no_aop_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_2_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_2_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/MigLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/MigLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/libraries/lombok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/Strucker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Strucker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/lib/miglayout-core-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/lib/miglayout-core-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/lib/miglayout-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/miglayout-core.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/lib/miglayout-swing-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/lib/miglayout-swing-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/lib/miglayout-swing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/miglayout-swing.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/lombok.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lombok.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/application/ApplicationSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/application/ApplicationSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/application/StruckerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/application/StruckerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/application/StruckerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/application/StruckerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/application/StruckerMenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/application/StruckerMenuBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/application/StruckerToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/application/StruckerToolBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/DiagramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/DiagramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/DiagramOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/DiagramOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/ExplorerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/ExplorerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/ExplorerOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/ExplorerOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/LibraryOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/LibraryOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/ProjectOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/ProjectOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/StructogramEditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/StructogramEditorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/controller/StructogramEditorOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/StructogramEditorOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/HealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/HealthCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/ObjectLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/ObjectLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/ProjectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/ProjectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Diagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Diagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Statement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/Structogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Structogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/StructogramType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/StructogramType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/diagram/StructogramView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/StructogramView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpretation/Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpretation/Parameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpretation/parsed/AbstractParsedStructogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpretation/parsed/AbstractParsedStructogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedStructogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/interpretation/parsed/ParsedStructogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/project/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/project/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/model/project/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/project/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/ExecuteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/ExecuteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/ExpressionRecognizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/ExpressionRecognizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/Identifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/PotentialInfinteLoopException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/PotentialInfinteLoopException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLang.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLang.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLangLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLangLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLangLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLangLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLangOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLangOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLangParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/StructoLangParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/service/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/service/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/service/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/service/MessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/service/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/service/ResourceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/UIProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/UIProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/CreateStructogramDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/CreateStructogramDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/ProjectPropertiesDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/ProjectPropertiesDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/StruckerDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/StruckerDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/dialogs/StructogramPropertiesDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/StructogramPropertiesDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/editor/Explorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/editor/Explorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/editor/StructogramEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/editor/StructogramEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/editor/ViewProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/editor/ViewProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/editor/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/editor/Viewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/editor/ViewerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/editor/ViewerHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/AnalyzeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/AnalyzeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/ApplicationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/ApplicationMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/DiagramMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/DiagramMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/EditMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/EditMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/ExplorerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/ExplorerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/FileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/LibraryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/LibraryMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/ProjectMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/ProjectMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/menus/ViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/ViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/GradientPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/tools/GradientPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/MotionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/tools/MotionPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/RoundedPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/tools/RoundedPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/StruckerToolBarButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/tools/StruckerToolBarButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/view/tools/ToolBarIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/tools/ToolBarIcon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/close_tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/close_tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/close_tab_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/close_tab_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/cut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/collapse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/collapse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/expand.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/expand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/library.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/library.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/mainLibrary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/mainLibrary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/modified.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/modified.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/ok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/project.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/project.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/redundant.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/redundant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/saved.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/saved.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/explorer/unknown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/explorer/unknown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/false.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/false.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/insert.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/insert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/capture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/capture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/checkproject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/checkproject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/closetabs.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/closetabs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/cut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/deleteFromDisc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/deleteFromDisc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/execute.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/execute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/exit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/exit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/export.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/export.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/import.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/import.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/new.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/newDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/newDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/newLibrary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/newLibrary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/newProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/newProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/open.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/open_recent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/open_recent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/paste.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/paste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/properties.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/properties.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/redo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/saveall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/saveall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/saveas.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/saveas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/settings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/settings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/undo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/zoomin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/zoomin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/menu/zoomout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/menu/zoomout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/node_can_collapse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/node_can_collapse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/node_can_expand.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/node_can_expand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/node_is_leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/node_is_leaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/paste.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/paste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/project.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/project.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/project_node.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/project_node.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/properties.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/properties.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/capture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/capture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/cut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/execute.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/execute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/export.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/export.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/importDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/importDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/newDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/newDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/newLibrary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/newLibrary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/newProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/newProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/openProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/openProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/paste.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/paste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/properties.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/properties.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/remove.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/remove.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/saveAllProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/saveAllProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/saveAsProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/saveAsProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/toolbar/saveProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/toolbar/saveProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/true.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/true.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/images/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/src/main/resources/strucker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/strucker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/Strucker-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/Strucker-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/ApplicationSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/ApplicationSelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/StruckerApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerApplication$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/StruckerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/StruckerFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/StruckerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/StruckerMenuBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerMenuBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/application/StruckerToolBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerToolBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/DiagramController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/DiagramController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/DiagramOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/DiagramOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/ExplorerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/ExplorerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/ExplorerOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/ExplorerOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/LibraryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/LibraryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/LibraryOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/LibraryOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/ProjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/ProjectOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/ProjectOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/StructogramEditorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/StructogramEditorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/controller/StructogramEditorOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/StructogramEditorOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/HealthCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/HealthCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/ObjectLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/ObjectLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/ProjectStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/ProjectStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Diagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Diagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Loop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Selection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Sequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Statement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/Structogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Structogram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/StructogramType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/StructogramType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/diagram/StructogramView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/StructogramView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpretation/Parameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/Parameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpretation/parsed/AbstractParsedStructogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/AbstractParsedStructogram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedSelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedStructogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedStructogram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/project/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/project/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/model/project/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/project/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/ExecuteException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/ExecuteException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer$StructoLangErrorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer$StructoLangErrorListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/Identifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/Identifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/PotentialInfinteLoopException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/PotentialInfinteLoopException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangParser$EvalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser$EvalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangParser$ExprContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser$ExprContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangParser$FunctionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser$FunctionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangParser$Id_exprContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser$Id_exprContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangParser$ListContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser$ListContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/recognizer/StructoLangParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/service/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/service/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/service/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/service/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/service/ResourceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/service/ResourceManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/UIProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/UIProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/CreateStructogramDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/CreateStructogramDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/ProjectPropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/ProjectPropertiesDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/StruckerDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/StruckerDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/dialogs/StructogramPropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/StructogramPropertiesDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/Explorer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/Explorer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/Explorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/Explorer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/StructogramEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/StructogramEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/ViewProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/ViewProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/Viewer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/Viewer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/Viewer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/Viewer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/Viewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/Viewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/editor/ViewerHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/ViewerHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/AnalyzeMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/AnalyzeMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/ApplicationMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ApplicationMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/DiagramMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/DiagramMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/EditMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/EditMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/ExplorerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ExplorerMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/FileMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/FileMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/LibraryMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/LibraryMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/ProjectMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ProjectMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/menus/ViewMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ViewMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/GradientPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/tools/GradientPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/MotionPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/tools/MotionPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/MotionPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/tools/MotionPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/MotionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/tools/MotionPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/RoundedPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/tools/RoundedPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/StruckerToolBarButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/tools/StruckerToolBarButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/hu/elte/strucker/view/tools/ToolBarIcon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/tools/ToolBarIcon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/close_tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/close_tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/close_tab_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/close_tab_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/cut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/collapse.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/collapse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/expand.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/expand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/library.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/library.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/mainLibrary.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/mainLibrary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/modified.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/modified.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/ok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/project.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/project.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/redundant.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/redundant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/saved.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/saved.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/explorer/unknown.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/explorer/unknown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/false.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/false.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/insert.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/insert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/capture.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/capture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/checkproject.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/checkproject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/closetabs.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/closetabs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/cut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/deleteFromDisc.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/deleteFromDisc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/execute.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/execute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/exit.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/exit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/export.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/export.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/import.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/import.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/new.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/newDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/newDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/newLibrary.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/newLibrary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/newProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/newProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/open.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/open_recent.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/open_recent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/paste.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/paste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/properties.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/properties.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/redo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/saveall.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/saveall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/saveas.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/saveas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/settings.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/settings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/undo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/zoomin.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/zoomin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/menu/zoomout.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/menu/zoomout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/node_can_collapse.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/node_can_collapse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/node_can_expand.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/node_can_expand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/node_is_leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/node_is_leaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/paste.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/paste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/project.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/project.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/project_node.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/project_node.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/properties.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/properties.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/capture.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/capture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/cut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/execute.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/execute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/export.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/export.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/importDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/importDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/newDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/newDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/newLibrary.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/newLibrary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/newProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/newProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/openProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/openProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/paste.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/paste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/properties.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/properties.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/remove.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/remove.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/saveAllProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/saveAllProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/saveAsProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/saveAsProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/toolbar/saveProject.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/toolbar/saveProject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/true.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/true.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/images/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/classes/strucker.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strucker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/ST4-4.0.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/ST4-4.0.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/antlr-runtime-3.5.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/antlr-runtime-3.5.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/antlr4-4.7.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/antlr4-4.7.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/antlr4-maven-plugin-4.7.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/antlr4-maven-plugin-4.7.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/antlr4-runtime-4.7.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/antlr4-runtime-4.7.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/backport-util-concurrent-3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/backport-util-concurrent-3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/classworlds-1.1-alpha-2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/classworlds-1.1-alpha-2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/icu4j-58.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/icu4j-58.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/jackson-core-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/jackson-mapper-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/javax.json-1.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/javax.json-1.0.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/junit-3.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/junit-3.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/lombok-1.16.20.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/lombok-1.16.20.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-artifact-3.0.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-artifact-3.0.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-artifact-manager-2.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-artifact-manager-2.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-model-3.0.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-model-3.0.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-plugin-api-3.0.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-plugin-api-3.0.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-plugin-registry-2.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-plugin-registry-2.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-profile-2.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-profile-2.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-project-2.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-project-2.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-repository-metadata-2.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-repository-metadata-2.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/maven-settings-2.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/maven-settings-2.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/org.abego.treelayout.core-1.0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/org.abego.treelayout.core-1.0.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/plexus-build-api-0.0.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/plexus-build-api-0.0.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/plexus-classworlds-2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/plexus-classworlds-2.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/plexus-compiler-api-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/plexus-compiler-api-2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/plexus-component-annotations-1.5.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/plexus-component-annotations-1.5.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/plexus-container-default-1.0-alpha-9-stable-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/plexus-container-default-1.0-alpha-9-stable-1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/plexus-interpolation-1.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/plexus-interpolation-1.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/plexus-utils-3.0.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/plexus-utils-3.0.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/sisu-guava-0.9.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/sisu-guava-0.9.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/sisu-guice-3.1.0-no_aop.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/sisu-guice-3.1.0-no_aop.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/sisu-inject-bean-2.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/sisu-inject-bean-2.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/sisu-inject-plexus-2.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/sisu-inject-plexus-2.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/libs/wagon-provider-api-1.0-beta-6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/libs/wagon-provider-api-1.0-beta-6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strucker/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.document.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.document.raktar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.domain.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.domain.raktar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.domain.szervezet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.domain.targy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.business.ui.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/anakin.permission.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anakinreport/index.md" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2118528512">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="g4" value="1" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ANTLR v4 grammar file" value="1" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Strucker/src/main/java/hu/elte/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Strucker/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="105" column="21" selection-start-line="101" selection-start-column="8" selection-end-line="105" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3182">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="e#22#166#1" expanded="true" />
-                <element signature="e#168#259#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="ProjectId" id="1WsxdKLx3gRNilPlY8rAZfBsRum" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="410" />
-    <option name="y" value="218" />
-    <option name="width" value="1392" />
-    <option name="height" value="996" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="elte" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="elte" type="462c0819:PsiDirectoryNode" />
-              <item name="strucker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Strucker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="Strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hu" type="462c0819:PsiDirectoryNode" />
-              <item name="elte" type="462c0819:PsiDirectoryNode" />
-              <item name="strucker" type="462c0819:PsiDirectoryNode" />
-              <item name="recognizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\git\Strucker" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.elte.Main" />
+      <module name="Strucker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.elte.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -411,20 +519,35 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -437,81 +560,78 @@
       <option name="presentableId" value="Default" />
       <updated>1523176914093</updated>
       <workItem from="1534184787407" duration="1232000" />
+      <workItem from="1579952193157" duration="12000" />
+      <workItem from="1579952259209" duration="7894000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1232000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1052" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Tool Output" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32960597" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="620" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579952545971">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="620" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1579952545971" />
+    <state x="926" y="138" key="#xdebugger.evaluate" timestamp="1579954373328">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="926" y="138" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1579954373328" />
+    <state x="138" y="16" key="CommitChangelistDialog2" timestamp="1579956613552">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="138" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579956613552" />
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1579960459731">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1579960459731" />
+    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1579960459731">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1579960459731" />
+    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1579960459731">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1579960459731" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1579960459731">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1579960459731" />
+    <state width="1493" height="217" key="GridCell.Tab.1.bottom" timestamp="1579960459614">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1579960459614" />
+    <state width="1493" height="217" key="GridCell.Tab.1.center" timestamp="1579960459613">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1579960459613" />
+    <state width="1493" height="217" key="GridCell.Tab.1.left" timestamp="1579960459613">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1579960459613" />
+    <state width="1493" height="217" key="GridCell.Tab.1.right" timestamp="1579960459613">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="217" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1579960459613" />
+    <state x="299" y="76" key="Maven.ArtifactSearchDialog" timestamp="1579958997538">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="76" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1579958997538" />
+    <state x="279" y="63" key="SettingsEditor" timestamp="1579959847566">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="279" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1579959847566" />
+    <state x="474" y="51" width="588" height="732" key="find.popup" timestamp="1579960118412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="474" y="51" width="588" height="732" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1579960118412" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/StruckerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/Strucker/src/main/java/hu/elte/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strucker/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="105" column="21" selection-start-line="101" selection-start-column="8" selection-end-line="105" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strucker/src/main/java/hu/elte/strucker/recognizer/StructoLang.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3182">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#22#166#1" expanded="true" />
-            <element signature="e#168#259#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.getSize()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>
