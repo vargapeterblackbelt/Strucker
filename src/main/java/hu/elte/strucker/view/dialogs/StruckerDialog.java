@@ -21,7 +21,7 @@ public abstract class StruckerDialog extends JDialog {
     protected abstract void ok();
 
     protected void cancel() {
-        message("Megszakítva", MessageType.INFO);
+//        message("Megszakítva", MessageType.INFO);
         cancelled = true;
         setVisible(false);
         dispose();

@@ -55,7 +55,7 @@ public class StruckerFrame extends JFrame implements ApplicationSelection {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        MessageService.paintMessages(g);
+//        MessageService.paintMessages(g);
     }
 
     public void init() {

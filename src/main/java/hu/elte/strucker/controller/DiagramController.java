@@ -100,13 +100,14 @@ public class DiagramController implements DiagramOperations {
     public void check(Diagram diagram) {
         HealthCheck check = diagram.check();
         if (check.equals(ERROR)) {
-            message("Healthcheck: ERROR", MessageType.ERROR);
+            message("Az ellenőrzés sikertelen.", MessageType.ERROR);
         } else {
-            message("Healthcheck: OK", MessageType.SUCCESS);
+            message("Az ellenőrzés sikeres.", MessageType.SUCCESS);
         }
         app.fireDiagramChecked(diagram);
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public void execute(Diagram diagram) {
         boolean ok = true;
