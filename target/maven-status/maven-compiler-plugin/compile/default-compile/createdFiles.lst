@@ -58,6 +58,7 @@ hu\elte\strucker\controller\LibraryController.class
 hu\elte\strucker\controller\StructogramEditorOperations.class
 hu\elte\strucker\view\tools\MotionPanel.class
 hu\elte\strucker\service\Message.class
+hu\elte\strucker\view\dialogs\TextInputDialog.class
 hu\elte\strucker\model\interpretation\parsed\ParsedStructogram.class
 hu\elte\strucker\view\tools\ToolBarIcon.class
 hu\elte\strucker\model\ObjectLoader.class

@@ -71,5 +71,6 @@ C:\work\git\Strucker\src\main\java\hu\elte\strucker\recognizer\Expression.java
 C:\work\git\Strucker\src\main\java\hu\elte\strucker\recognizer\ExecuteException.java
 C:\work\git\Strucker\src\main\java\hu\elte\strucker\recognizer\StructoLangOperations.java
 C:\work\git\Strucker\src\main\java\hu\elte\strucker\recognizer\PotentialInfinteLoopException.java
+C:\work\git\Strucker\src\main\java\hu\elte\strucker\view\dialogs\TextInputDialog.java
 C:\work\git\Strucker\src\main\java\hu\elte\strucker\view\menus\AnalyzeMenu.java
 C:\work\git\Strucker\src\main\java\hu\elte\strucker\model\diagram\StructogramView.java

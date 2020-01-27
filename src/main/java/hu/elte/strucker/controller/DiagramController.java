@@ -187,7 +187,6 @@ public class DiagramController implements DiagramOperations {
         }
         sb.append("]");
         String result = sb.toString();
-        result.replace(", ]", "]");
-        return result;
+        return result.replace(", ]", "]");
     }
 }

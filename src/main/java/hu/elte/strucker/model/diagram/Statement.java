@@ -27,7 +27,7 @@ public class Statement extends Structogram {
 
     @Override
     protected ParsedStructogram parse(Diagram diagram) {
-        ExpressionRecognizer recognizer = new ExpressionRecognizer(diagram.getScope());
+        ExpressionRecognizer recognizer = new ExpressionRecognizer(diagram.getCurrentScope());
         Expression parsedStatement = recognizer.parse(statement);
         setErrors(recognizer.getErrors());
         if (!getErrors().isEmpty()) {

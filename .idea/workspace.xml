@@ -2,55 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e9863e-5281-425f-ba41-0633e23afdff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/TextInputDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/DiagramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/DiagramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/StructogramEditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/controller/StructogramEditorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Diagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Diagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/ExpressionRecognizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/recognizer/ExpressionRecognizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/service/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/service/MessageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/CreateStructogramDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/CreateStructogramDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/StruckerDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/dialogs/StruckerDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/editor/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/editor/Viewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/EditMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/view/menus/EditMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Strucker-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Strucker.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerToolBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/application/StruckerToolBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Statement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/DiagramController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/DiagramController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/LibraryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/LibraryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/ProjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/StructogramEditorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/controller/StructogramEditorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Diagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Diagram.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Loop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/StructogramType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/StructogramType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/interpretation/parsed/ParsedLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/Expression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer$StructoLangErrorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer$StructoLangErrorListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/ExpressionRecognizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/recognizer/StructoLangParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/service/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/service/MessageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/CreateStructogramDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/CreateStructogramDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/DiagramPropertiesDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/ProjectPropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/ProjectPropertiesDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/StruckerDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/StruckerDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/StructogramPropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/dialogs/StructogramPropertiesDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/Viewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/editor/Viewer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/AnalyzeMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/AnalyzeMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/DiagramMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/DiagramMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/EditMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/EditMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ExplorerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ExplorerMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/FileMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/FileMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/LibraryMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/LibraryMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ProjectMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ProjectMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ViewMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/view/menus/ViewMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/elte/strucker/model/diagram/Statement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -166,7 +130,7 @@
       <workItem from="1534184787407" duration="1232000" />
       <workItem from="1579952193157" duration="12000" />
       <workItem from="1579952259209" duration="12987000" />
-      <workItem from="1579977465293" duration="9772000" />
+      <workItem from="1579977465293" duration="22037000" />
     </task>
     <servers />
   </component>
@@ -174,54 +138,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="620" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579952545971">
+    <state x="620" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580072217003">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="620" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1579952545971" />
-    <state x="421" y="31" width="1002" height="577" key="#xdebugger.evaluate" timestamp="1579978298753">
+    <state x="620" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1580072217003" />
+    <state x="448" y="452" width="1002" height="300" key="#xdebugger.evaluate" timestamp="1579993492292">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="421" y="31" width="1002" height="577" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1579978298753" />
+    <state x="448" y="452" width="1002" height="300" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1579993492292" />
     <state x="138" y="16" key="CommitChangelistDialog2" timestamp="1579956613552">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="138" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579956613552" />
-    <state width="719" height="466" key="DebuggerActiveHint" timestamp="1579986014580">
+    <state width="1092" height="466" key="DebuggerActiveHint" timestamp="1579993715162">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="719" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1579986014580" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1579987406341">
+    <state width="1092" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1579993715162" />
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1580060105422">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1579987406341" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1579987406340">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580060105422" />
+    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1580060105422">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1579987406340" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1579987406340">
+    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580060105422" />
+    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1580060105422">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1579987406340" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1579987406341">
+    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580060105422" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1580060105422">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1579987406341" />
-    <state width="1493" height="239" key="GridCell.Tab.1.bottom" timestamp="1579987406341">
+    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580060105422" />
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom" timestamp="1580060105420">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1579987406341" />
-    <state width="1493" height="239" key="GridCell.Tab.1.center" timestamp="1579987406341">
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580060105420" />
+    <state width="1493" height="239" key="GridCell.Tab.1.center" timestamp="1580060105420">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1579987406341" />
-    <state width="1493" height="239" key="GridCell.Tab.1.left" timestamp="1579987406341">
+    <state width="1493" height="239" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1580060105420" />
+    <state width="1493" height="239" key="GridCell.Tab.1.left" timestamp="1580060105419">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1579987406341" />
-    <state width="1493" height="239" key="GridCell.Tab.1.right" timestamp="1579987406341">
+    <state width="1493" height="239" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1580060105419" />
+    <state width="1493" height="239" key="GridCell.Tab.1.right" timestamp="1580060105420">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1579987406341" />
+    <state width="1493" height="239" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1580060105420" />
     <state x="299" y="76" key="Maven.ArtifactSearchDialog" timestamp="1579958997538">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -230,35 +194,49 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="279" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1579959847566" />
-    <state x="326" y="157" width="883" height="553" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579985893552">
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1580060562953">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="326" y="157" width="883" height="553" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1579985893552" />
-    <state x="474" y="51" width="588" height="732" key="find.popup" timestamp="1579987580489">
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1580060562953" />
+    <state x="326" y="157" width="883" height="553" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579993686794">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="474" y="51" width="588" height="732" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1579987580489" />
+    <state x="326" y="157" width="883" height="553" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1579993686794" />
+    <state x="474" y="51" width="588" height="732" key="find.popup" timestamp="1580048354835">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="474" y="51" width="588" height="732" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1580048354835" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1579980013761">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1579980013761" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1579985027428">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1580073692090">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1579985027428" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1580073692090" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="this.getFullName()" language="JAVA" />
-        <watch expression="this.scope.get(&quot;list&quot;).getValue().toString()" language="JAVA" />
-        <watch expression="this.scope.get(&quot;list1&quot;).getValue().toString()" language="JAVA" />
-        <watch expression="this.scope.get(&quot;list2&quot;).getValue().toString()" language="JAVA" />
-        <watch expression="this.scope.get(&quot;return&quot;).getValue().toString()" language="JAVA" />
-        <watch expression="this.scope.get(&quot;from&quot;).getValue().toString()" language="JAVA" />
-        <watch expression="this.scope.get(&quot;to&quot;).getValue().toString()" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <condition expression="this.name.equals(&quot;merge&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Diagram.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="this.name.equals(&quot;subList&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/hu/elte/strucker/model/diagram/Diagram.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <condition expression="this instanceof NullPointerException" language="JAVA" custom="org.codehaus.jackson.map.JsonMappingException" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

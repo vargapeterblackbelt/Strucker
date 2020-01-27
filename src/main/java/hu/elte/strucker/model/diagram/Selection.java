@@ -112,7 +112,7 @@ public class Selection extends Structogram {
 
     @Override
     public ParsedStructogram parse(Diagram diagram) {
-        ExpressionRecognizer recognizer = new ExpressionRecognizer(diagram.getScope());
+        ExpressionRecognizer recognizer = new ExpressionRecognizer(diagram.getCurrentScope());
         Expression parsedCondition = recognizer.parse(condition);
         setErrors(recognizer.getErrors());
         if(!parsedCondition.hasType(Boolean.class)) {

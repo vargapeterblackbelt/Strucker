@@ -133,18 +133,20 @@ public class Diagram extends Sequence {
         ParsedStructogram parsedStructogram = super.parse(this);
         parsedStructogram.execute();
         Identifier aReturn = getCurrentScope().get("return");
+        scopes.remove(scopes.size() - 1);
         return (T) aReturn.getValue();
     }
 
+    @JsonIgnore
     public Map<String, Identifier> getCurrentScope() {
         return scopes.get(scopes.size() - 1);
     }
 
     public <T> T eval(Class<T> type, List<Expression> params) throws Exception {
-        scope = setupScope();
+        scopes.add(setupScope());
         for (int i = 0; i < params.size(); i++) {
             try {
-                scope.replace(parameters.get(i).getName(), new Identifier(parameters.get(i).getName(), params.get(i).getType(), params.get(i).eval()));
+                getCurrentScope().replace(parameters.get(i).getName(), new Identifier(parameters.get(i).getName(), params.get(i).getType(), params.get(i).eval()));
             } catch (ExecuteException e) {
                 e.printStackTrace();
             }
@@ -155,14 +157,15 @@ public class Diagram extends Sequence {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Identifier aReturn = scope.get("return");
+        Identifier aReturn = getCurrentScope().get("return");
         //noinspection unchecked
+        scopes.remove(scopes.size() - 1);
         return (T) aReturn.getValue();
     }
 
     public HealthCheck check() {
         healthCheck = OK;
-        scope = setupScope();
+        scopes.add(setupScope());
         super.parse(this);
         return healthCheck;
     }
